@@ -1,3 +1,0 @@
-[2026-02-14 14:07:18] [INFO] [ApiClient] ApiClient initialized with base URL: https://jsonplaceholder.typicode.com
-[2026-02-14 14:07:18] [INFO] [ApiClient] → DELETE https://jsonplaceholder.typicode.com/posts/1
-[2026-02-14 14:07:19] [INFO] [ApiClient] ← 200 OK (661ms)

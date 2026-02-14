@@ -1,4 +1,0 @@
-[2026-02-14 14:07:17] [INFO] [ApiClient] ApiClient initialized with base URL: https://jsonplaceholder.typicode.com
-[2026-02-14 14:07:17] [INFO] [ApiClient] → GET https://jsonplaceholder.typicode.com/users/1
-[2026-02-14 14:07:18] [INFO] [MetricsCollector] MetricsCollector initialized — tracking test execution metrics
-[2026-02-14 14:07:18] [INFO] [ApiClient] ← 200 OK (142ms)

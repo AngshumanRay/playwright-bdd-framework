@@ -1,0 +1,16 @@
+[2026-02-14 17:00:45] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-02-14 17:00:45] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-02-14 17:00:46] [INFO] [LoginPage] Navigation complete.
+[2026-02-14 17:00:46] [STEP] [LoginPage] ▶ Logging in as: standard_user
+[2026-02-14 17:00:46] [INFO] [LoginPage] Filling "Username" with: "standard_user"
+[2026-02-14 17:00:46] [INFO] [LoginPage] Filling "Password" with: "secret_sauce"
+[2026-02-14 17:00:46] [INFO] [LoginPage] Clicking: Login Button
+[2026-02-14 17:00:46] [INFO] [LoginPage] Login form submitted.
+[2026-02-14 17:00:46] [STEP] [LoginPage] ▶ Verifying successful login
+[2026-02-14 17:00:46] [INFO] [LoginPage] Asserting URL matches: /inventory.html/
+[2026-02-14 17:00:46] [INFO] [LoginPage] ✅ URL assertion passed.
+[2026-02-14 17:00:46] [INFO] [LoginPage] ✅ Login successful — redirected to inventory page.
+[2026-02-14 17:00:46] [STEP] [InventoryPage] ▶ Adding product to cart: "Sauce Labs Backpack"
+[2026-02-14 17:00:46] [INFO] [InventoryPage] ✅ "Sauce Labs Backpack" added to cart.
+[2026-02-14 17:00:46] [STEP] [InventoryPage] ▶ Verifying cart count: 1
+[2026-02-14 17:00:46] [INFO] [InventoryPage] ✅ Cart shows 1 items.

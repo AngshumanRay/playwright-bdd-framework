@@ -1,1 +1,0 @@
-[2026-02-14 14:07:22] [WARN] [PlaywrightDocsPage] Search dialog did not open via click, trying keyboard shortcut

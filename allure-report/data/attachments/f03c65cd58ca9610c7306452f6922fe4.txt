@@ -1,8 +1,0 @@
-[2026-02-14 14:07:07] [STEP] [PlaywrightDocsPage] ▶ Setting up search API interception
-[2026-02-14 14:07:07] [INFO] [PlaywrightDocsPage] Search API interception configured.
-[2026-02-14 14:07:07] [STEP] [PlaywrightDocsPage] ▶ Navigating to Playwright docs homepage
-[2026-02-14 14:07:07] [INFO] [PlaywrightDocsPage] Navigating to: https://playwright.dev/
-[2026-02-14 14:07:08] [INFO] [PlaywrightDocsPage] Navigation complete.
-[2026-02-14 14:07:08] [STEP] [PlaywrightDocsPage] ▶ Searching for: "Mocked"
-[2026-02-14 14:07:08] [INFO] [PlaywrightDocsPage] Filling "Search Input" with: "Mocked"
-[2026-02-14 14:07:08] [INFO] [PlaywrightDocsPage] Search results loaded for: "Mocked"
