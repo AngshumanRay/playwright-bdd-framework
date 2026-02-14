@@ -1,0 +1,12 @@
+[2026-02-14 14:07:11] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-02-14 14:07:11] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-02-14 14:07:12] [INFO] [LoginPage] Navigation complete.
+[2026-02-14 14:07:12] [STEP] [LoginPage] ▶ Logging in as: standard_user
+[2026-02-14 14:07:12] [INFO] [LoginPage] Filling "Username" with: "standard_user"
+[2026-02-14 14:07:12] [INFO] [LoginPage] Filling "Password" with: "wrong_pass"
+[2026-02-14 14:07:12] [INFO] [LoginPage] Clicking: Login Button
+[2026-02-14 14:07:12] [INFO] [LoginPage] Login form submitted.
+[2026-02-14 14:07:12] [STEP] [LoginPage] ▶ Verifying error message: "Epic sadface: Username and password do not match any user in this service"
+[2026-02-14 14:07:12] [INFO] [LoginPage] Asserting "Error Message" contains text: "Epic sadface: Username and password do not match any user in this service"
+[2026-02-14 14:07:12] [INFO] [LoginPage] ✅ Assertion passed.
+[2026-02-14 14:07:12] [INFO] [LoginPage] ✅ Error message verified.

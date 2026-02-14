@@ -1,0 +1,3 @@
+[2026-02-14 14:07:16] [STEP] [PlaywrightDocsPage] ▶ Navigating to Playwright docs homepage
+[2026-02-14 14:07:16] [INFO] [PlaywrightDocsPage] Navigating to: https://playwright.dev/
+[2026-02-14 14:07:16] [INFO] [PlaywrightDocsPage] Navigation complete.

@@ -1,0 +1,17 @@
+[2026-02-14 14:07:14] [STEP] [LoginPage] ▶ Navigating to SauceDemo login page
+[2026-02-14 14:07:14] [INFO] [LoginPage] Navigating to: https://www.saucedemo.com/
+[2026-02-14 14:07:15] [INFO] [LoginPage] Navigation complete.
+[2026-02-14 14:07:15] [STEP] [LoginPage] ▶ Logging in as: standard_user
+[2026-02-14 14:07:15] [INFO] [LoginPage] Filling "Username" with: "standard_user"
+[2026-02-14 14:07:15] [INFO] [LoginPage] Filling "Password" with: "secret_sauce"
+[2026-02-14 14:07:15] [INFO] [LoginPage] Clicking: Login Button
+[2026-02-14 14:07:15] [INFO] [LoginPage] Login form submitted.
+[2026-02-14 14:07:15] [STEP] [LoginPage] ▶ Verifying successful login
+[2026-02-14 14:07:15] [INFO] [LoginPage] Asserting URL matches: /inventory.html/
+[2026-02-14 14:07:15] [INFO] [LoginPage] ✅ URL assertion passed.
+[2026-02-14 14:07:15] [INFO] [LoginPage] ✅ Login successful — redirected to inventory page.
+[2026-02-14 14:07:15] [STEP] [InventoryPage] ▶ Verifying inventory page loaded
+[2026-02-14 14:07:15] [INFO] [InventoryPage] Asserting "Page Title" contains text: "Products"
+[2026-02-14 14:07:15] [INFO] [InventoryPage] ✅ Assertion passed.
+[2026-02-14 14:07:15] [INFO] [InventoryPage] ✅ Inventory page loaded.
+[2026-02-14 14:07:15] [INFO] [InventoryPage] Products on page: 6

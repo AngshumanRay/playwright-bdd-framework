@@ -1,0 +1,50 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "2.0.0",
+  "description": "🚀 A comprehensive, beginner-friendly BDD automation framework built with Playwright, Cucumber, and TypeScript. Supports UI + API testing with rich reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "test:ui": "npx bddgen && npx playwright test --project=chromium --project=firefox --project=webkit",
+    "test:api": "npx bddgen && npx playwright test --project=api",
+    "test:chrome": "npx bddgen && npx playwright test --project=chromium",
+    "test:firefox": "npx bddgen && npx playwright test --project=firefox",
+    "test:webkit": "npx bddgen && npx playwright test --project=webkit",
+    "test:smoke": "npx bddgen && npx playwright test --grep @smoke",
+    "test:regression": "npx bddgen && npx playwright test --grep @regression",
+    "test:headed": "npx bddgen && npx playwright test --headed --project=chromium",
+    "test:debug": "npx bddgen && npx playwright test --debug --project=chromium",
+    "test:interactive": "npx bddgen && npx playwright test --ui",
+    "report": "npx playwright show-report",
+    "report:allure": "npx allure serve allure-results",
+    "report:dashboard": "open test-results/reports/dashboard.html || xdg-open test-results/reports/dashboard.html",
+    "report:monocart": "open test-results/monocart/report.html || xdg-open test-results/monocart/report.html",
+    "report:all": "open playwright-report/index.html test-results/reports/dashboard.html test-results/monocart/report.html && npx allure generate -o allure-report --name 'PlaywrightBDD Report' --open",
+    "test:report": "rm -rf allure-results allure-report && npm test && npm run report:all",
+    "clean": "rm -rf test-results allure-results playwright-report .features-gen",
+    "clean:all": "npm run clean && rm -rf node_modules package-lock.json",
+    "setup": "npm install && npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "bdd",
+    "cucumber",
+    "automation",
+    "testing",
+    "typescript",
+    "e2e",
+    "api-testing"
+  ],
+  "author": "PlaywrightBDD Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "1.58",
+    "allure-playwright": "^3.4.5",
+    "monocart-reporter": "^2.10.0",
+    "playwright": "1.58",
+    "playwright-bdd": "^8.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

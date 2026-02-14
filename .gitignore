@@ -1,0 +1,31 @@
+# ============================================================================
+# 📁 .gitignore — Files Git Should Ignore
+# ============================================================================
+
+# Dependencies
+node_modules/
+
+# Test output (regenerated every run)
+test-results/
+playwright-report/
+allure-results/
+.features-gen/
+
+# Environment secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# TypeScript output
+dist/
+
+# Debug logs
+*.log
+npm-debug.log*
